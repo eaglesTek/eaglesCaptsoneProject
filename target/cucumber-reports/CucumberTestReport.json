@@ -1,0 +1,185 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "comments": [
+          {
+            "line": 3,
+            "value": "# In feature will be use a comment"
+          },
+          {
+            "line": 4,
+            "value": "#Every Feature file starts with Feature: \u003cName of Feature\u003e"
+          }
+        ],
+        "line": 6,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1702040600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User is on Retail Website",
+            "match": {
+              "location": "LoginTestStepDef.user_is_on_Retail_Website()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2104025800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Initializer.beforeHooks(Scenario)"
+            }
+          }
+        ],
+        "line": 39,
+        "name": "Register new user to Retail Website",
+        "description": "",
+        "id": "login-to-retail-website;register-new-user-to-retail-website",
+        "after": [
+          {
+            "result": {
+              "duration": 692522600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Initializer.afterHooks(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 53722900,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "User click on MyAccount",
+            "match": {
+              "location": "LoginTestStepDef.user_click_on_MyAccount()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 630285600,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "User click on Register option",
+            "match": {
+              "location": "LoginTestStepDef.user_click_on_Register_option()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 398647800,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "User fill the Registration form with below information",
+            "match": {
+              "location": "LoginTestStepDef.user_fill_the_Registration_form_with_below_information(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "firstName",
+                  "lastName",
+                  "eMail",
+                  "telephone",
+                  "password",
+                  "passwordConfirm",
+                  "Subscribe"
+                ],
+                "line": 44
+              },
+              {
+                "cells": [
+                  "james",
+                  "bond",
+                  "jbond1@tekschool.us",
+                  "2021019911",
+                  "bond007",
+                  "bond007",
+                  "no"
+                ],
+                "line": 45
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 258211300,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "User accept the privacy and policy",
+            "match": {
+              "location": "LoginTestStepDef.user_accept_the_privacy_and_policy()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 408417100,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "User click on continue button",
+            "match": {
+              "location": "LoginTestStepDef.user_click_on_continue_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 189351800,
+              "status": "passed"
+            },
+            "line": 48,
+            "name": "User should be registered in Retail Website",
+            "match": {
+              "location": "LoginTestStepDef.user_should_be_registered_in_Retail_Website()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 38,
+            "name": "@RegisterTestCase"
+          }
+        ]
+      }
+    ],
+    "name": "Login to Retail website",
+    "description": "",
+    "id": "login-to-retail-website",
+    "keyword": "Feature",
+    "uri": "login.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@CompleteTest"
+      }
+    ]
+  }
+]
